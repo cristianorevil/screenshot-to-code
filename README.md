@@ -2,7 +2,7 @@
 
 This simple app converts a screenshot to code (HTML/Tailwind CSS, or React or Vue or Bootstrap). It uses GPT-4 Vision to generate the code and DALL-E 3 to generate similar-looking images. You can now also enter a URL to clone a live website!
 
-https://github.com/abi/screenshot-to-code/assets/23818/6cebadae-2fe3-4986-ac6a-8fb9db030045
+<https://github.com/abi/screenshot-to-code/assets/23818/6cebadae-2fe3-4986-ac6a-8fb9db030045>
 
 See the [Examples](#-examples) section below for more demos.
 
@@ -40,7 +40,7 @@ poetry shell
 poetry run uvicorn main:app --reload --port 7001
 ```
 
-For Azure version, you need to add some additional environment keys (vision and dalle3 deployment must be int the same resource on Azure):
+For Azure version, you need to add some additional environment keys (vision and dalle3 deployment must be int the same resource on Azure. You need to pay attention when creating resources. Currently, the dalle3 model only supports deployment in **Sweden Central**. For more information, please check the  [Azure doc](https://learn.microsoft.com/zh-cn/azure/ai-services/openai/concepts/models)):
 
 ```bash
 cd backend
